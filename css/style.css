@@ -1,0 +1,206 @@
+/* font-family: 'Ubuntu', sans-serif; */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 13.5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  object-fit: cover;
+}
+
+button {
+  border-style: none;
+  color: #fff;
+}
+
+.header_inner,
+.data,
+.filter {
+  display: flex;
+  font-weight: 600;
+  /* text-align: center; */
+  /* justify-content: space-between; */
+}
+
+.data {
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #11142D;
+  padding: 12px 18px;
+  gap: 18px;
+  margin-left: 15px;
+}
+
+.data_p {
+  height: 24px;
+  min-width: 158px;
+}
+
+.data_img {
+  width: 19px;
+  height: 24px;
+  padding: 4.5px 2px;
+}
+
+.smal_btn {
+  background: #4FC9DA;
+  border-radius: 12.6686px;
+  font-size: 12px;
+  line-height: 25px;
+
+}
+
+.filter {
+  margin-right: 17px;
+  margin-left: 11px;
+  /* min-width: 228px */
+  height: 46px;
+  line-height: 16px;
+  padding: 8px 0;
+}
+
+.filter_tip {
+  color: #808191;
+  font-size: 8px;
+  min-width: 128PX;
+}
+
+.filter_img {
+  width: 8px;
+  height: 4px;
+  margin: auto;
+}
+
+.filter_all {
+  font-weight: 700;
+  font-size: 12px;
+  color: #11142D;
+}
+
+.big_btn {
+  margin-left: 25px;
+  font-family: 'Ubuntu';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 12px;
+  padding: 16px 38PX;
+}
+
+.orange {
+  background: #FF754C;
+}
+
+.blue {
+  background: #4FC9DA;
+}
+
+.tabl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 24px;
+  color: #808191;
+}
+
+.tabl_header {
+  margin-top: 42px;
+}
+
+.tabl_text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.tabl_pr {
+  color: #575757;
+}
+
+.tabl_pr {
+  margin: 20px 0;
+}
+
+.tabl_text li+.tabl_text li {
+  margin-top: 4px;
+}
+
+.table_block {
+  margin-top: 5px;
+}
+
+.stolb1,
+.stolb2 {
+  min-width: 62px;
+  max-width: 62px;
+}
+
+.stolb3 {
+  min-width: 325px;
+}
+
+.stolb4 {
+  min-width: 113px;
+  margin-left: 117px;
+}
+
+.stolb5 {
+  min-width: 56px;
+}
+
+.stolbs {
+  margin-right: 20px;
+}
+
+footer {
+  margin-top: 73px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #184F70;
+
+}
